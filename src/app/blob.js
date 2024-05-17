@@ -36,8 +36,8 @@ const BlobScene = () => {
       requestAnimationFrame(animate);
 
       // Rotate blob
-      // blob.rotation.x += 0.01;
-      // blob.rotation.y += 0.01;
+      blob.rotation.x += 0.01;
+      blob.rotation.y += 0.01;
 
       // Render scene
       renderer.render(scene, camera);
