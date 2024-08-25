@@ -11,11 +11,11 @@ export default function NavBar() {
   };
   return (
     <main className="">
-      <div className="bg-white shadow-[inset_0_0px_100px_1px_rgba(0,0,0,0.1)]  rounded-full   p-2">
-        <div className="flex w-full text-xl  text-black flex-row justify-items-end ">
+      <div className="bg-[#B12F48] shadow-[inset_0_0px_100px_1px_rgba(0,0,0,0.1)]  rounded-lg   p-2">
+        <div className="flex w-full text-2xl font-bold text-black flex-row justify-items-end ">
           {marker == "home" ? (
-            <div className="pr-10 pl-10 bg-black relative rounded-full">
-              <div className=" text-white">
+            <div className="pr-10 pl-10 bg-[#211828] relative rounded-lg">
+              <div className=" text-[#EBB566]">
                 <input
                   type="button"
                   value={"Home"}
@@ -26,8 +26,8 @@ export default function NavBar() {
               </div>
             </div>
           ) : (
-            <div className="pr-10 pl-10  relative rounded-full">
-              <div className=" text-black">
+            <div className="pr-10 pl-10  relative rounded-lg">
+              <div className=" text-[#EBB566]">
                 <input
                   type="button"
                   value={"Home"}
@@ -39,8 +39,8 @@ export default function NavBar() {
             </div>
           )}
           {marker == "work" ? (
-            <div className="pr-10 pl-10 bg-black relative rounded-full">
-              <div className=" text-white">
+            <div className="pr-10 pl-10 bg-[#211828] relative rounded-lg">
+              <div className=" text-[#EBB566]">
                 <input
                   type="button"
                   value={"Work"}
@@ -52,7 +52,7 @@ export default function NavBar() {
             </div>
           ) : (
             <div className="pr-10 pl-10  relative rounded-full">
-              <div className=" text-black">
+              <div className=" text-[#EBB566]">
                 <input
                   type="button"
                   value={"Work"}
@@ -65,8 +65,8 @@ export default function NavBar() {
           )}
 
           {marker == "project" ? (
-            <div className="pr-10 pl-10 bg-black relative rounded-full">
-              <div className=" text-white">
+            <div className="pr-10 pl-10 bg-[#211828] relative rounded-lg">
+              <div className=" text-[#EBB566]">
                 <input
                   type="button"
                   value={"Project"}
@@ -78,7 +78,7 @@ export default function NavBar() {
             </div>
           ) : (
             <div className="pr-10 pl-10  relative rounded-full">
-              <div className=" text-black">
+              <div className=" text-[#EBB566]">
                 <input
                   type="button"
                   value={"Project"}
