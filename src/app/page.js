@@ -22,10 +22,10 @@ export default function Home() {
         </div> */}
         <NavBar2 />
       </div>
-      <div className="absolute left-0 top-0 w-full   min-h-screen">
+      <div className="absolute left-0 top-0 w-full bg-black  min-h-screen">
         <div className="flex  flex-col">
-          <section className="  w-full bg-black min-h-screen ">
-            <div className="w-full absolute z-[1]">
+          <section className="  w-full bg-[#2E2A27] min-h-screen ">
+            <div className="w-full bg-black absolute z-[1]">
               <Spline
                 scene="https://prod.spline.design/xomL57AOhrDprJ2h/scene.splinecode"
                 width={100}
