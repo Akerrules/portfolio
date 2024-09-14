@@ -3,18 +3,18 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faSquareCaretLeft } from "@fortawesome/free-regular-svg-icons";
 export default function Projects() {
   return (
-    <main className="w-1/2   pl-10">
-      <div className="h-[80vh] p-4 rounded bg-stone-700 bg-blur justify-center items-center overflow-y-scroll   ">
+    <main className=" w-full md:w-1/2   md:pl-10">
+      <div className="p-4 rounded bg-stone-700 bg-blur justify-center items-center    ">
         <div className="w-full space-y-10">
-          <div className="flex flex-row gap-10    text-white ">
+          <div className="flex flex-col md:flex-row gap-10    text-white ">
             <div className="w-2/3  bg-gradient-to-r from-neutral-300/20 to-stone-400/20 backdrop-blur-lg rounded shadow-lg     ">
               <div className="flex flex-col justify-center items-center">
                 <img
                   className="rounded-lg "
                   src="/images/GameSwap.png"
                   style={{
-                    width: "300px",
-                    height: "150px",
+                    width: "auto",
+                    height: "atuo",
                   }}
                 ></img>
                 <div className=" flex felx-row p-4">
@@ -22,7 +22,7 @@ export default function Projects() {
                     <h1 className=" text-2xl font-bold">
                       GameSwap | Honours Project
                     </h1>
-                    <h1>
+                    <h1 className="hidden md:block">
                       To revolutionize the way gamers connect, share, and
                       discover new gaming experiences, encapsulating the spirit
                       of innovation and community.
@@ -50,7 +50,7 @@ export default function Projects() {
                   src="/images/hello-eve.jpg"
                   style={{
                     width: "auto",
-                    height: "150px",
+                    height: "auto",
                   }}
                 ></img>
                 <div className="flex felx-row p-4">
@@ -66,7 +66,7 @@ export default function Projects() {
                     project integrates NLP and AI to enhance the driving
                     experience. The next step is to improve personalized advice
                     further by integrating more advanced AI features. */}
-                    <h1 className="text-sm">
+                    <h1 className="text-sm hidden md:block">
                       "Hello Eve" is a virtual assistant for EV drivers that
                       plans trips, suggests charging stops, and recommends
                       activities like coffee breaks or scenic views based on
@@ -98,7 +98,7 @@ export default function Projects() {
                   src="https://github.com/Akerrules/US_AQI_Analysis/raw/main/resource/dashboard.png"
                   style={{
                     width: "auto",
-                    height: "165px",
+                    height: "auto",
                   }}
                 ></img>
                 <div className="class flex felx-row p-4">
@@ -116,7 +116,7 @@ export default function Projects() {
                     suggest improvements for reducing pollution and supporting
                     public health policies. The US Air Quality dataset from
                     Kaggle serves as the primary data source */}
-                    <h1>
+                    <h1 className="hidden md:block">
                       Air Quality Insights" is a project focused on analyzing
                       air quality data to support climate change efforts and
                       policy-making. It utilizes the Air Quality Index (AQI) to

@@ -32,14 +32,14 @@ export default function Home() {
                 style={{ height: "100vh" }}
               />
             </div>
-            <div className="absolute z-[11]">
-              <div className="  pl-10  flex w-full justify-end   ">
+            <div className="absolute w-full z-[11]">
+              <div className=" md:pl-10  flex w-full justify-center items-center lg:justify-start lg:items-start   ">
                 <div className="flex flex-col  w-full  ">
-                  <div className=" flex items-center  flex-col w-full min-h-screen justify-center ">
-                    <h1 className="text-[#EBB566] text-8xl bg-blur  shadow-xl font-space ">
+                  <div className=" flex  justify-center items-center md:items-start flex-col w-full min-h-screen  ">
+                    <h1 className="text-white md:text-[#EBB566]  text-5xl lg:text-8xl bg-blur   font-space ">
                       Aditya
                     </h1>
-                    <h1 className="text-[#B12F48] text-8xl shadow-xl font-space">
+                    <h1 className="text-white md:text-[#B12F48]  text-5xl lg:text-8xl  font-space">
                       Kandel
                     </h1>
                   </div>
@@ -47,13 +47,14 @@ export default function Home() {
               </div>
             </div>
           </section>
-          <section id="Projects" className="h-full flex bg-stone-200">
+          <section id="Projects" className="h-full flex bg-black">
+            ={" "}
             <Spline
               scene="https://prod.spline.design/6-H33DH1QBk-H4UG/scene.splinecode"
               width={100}
-              style={{ height: "100vh" }}
+              style={{ height: "1500px" }}
             />
-            <div className=" absolute z-11 w-full   flex w-full    ">
+            <div className=" absolute z-12 w-full   flex w-full    ">
               <div className=" pl-10 flex flex-col  w-full  ">
                 <h1 className="text-[#B12F48] pl-1 w-full  pt-10 text-5xl  font-space rounded">
                   Projects
@@ -67,6 +68,24 @@ export default function Home() {
               </div>
             </div>
           </section>
+          {/* <section id="Projects" className="h-full flex ">
+            <div
+              className=" absolute z-12 w-full   flex w-full    "
+              style={{
+                background: "rgb(84,75,36)",
+                backgroundImage:
+                  "linear-gradient(211deg, rgba(101,78,47,1) 6%, rgba(34,34,34,1) 59%, rgba(42,43,43,1) 100%)",
+              }}
+            >
+              <div className=" pl-10 flex flex-col  w-full  ">
+                <div className="">
+                  <div className="pt-10">
+                    <Projects></Projects>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section> */}
         </div>
       </div>
     </main>
