@@ -4,7 +4,7 @@ import { faSquareCaretLeft } from "@fortawesome/free-regular-svg-icons";
 export default function Projects() {
   return (
     <main className=" w-full md:w-1/2   md:pl-10">
-      <div className="p-4 rounded bg-stone-700 bg-blur justify-center items-center    ">
+      <div className="p-4 rounded  bg-blur justify-center items-center    ">
         <div className="w-full space-y-10">
           <div className="flex flex-col md:flex-row gap-10    text-white ">
             <div className="w-2/3  bg-gradient-to-r from-neutral-300/20 to-stone-400/20 backdrop-blur-lg rounded shadow-lg     ">
